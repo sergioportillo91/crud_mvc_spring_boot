@@ -23,8 +23,9 @@ public class PersonasRepository {
         return crudRepositoryPersonas.findById(id);
     }
 
-    public Persona savePersona(Persona persona){
-        return crudRepositoryPersonas.save(persona);
+    public void savePersona(Persona persona){
+         crudRepositoryPersonas.save(persona);
+
     }
 
     public void delete(Persona persona){

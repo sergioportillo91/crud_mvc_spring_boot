@@ -22,8 +22,8 @@ public class PersonaService {
         return repositoryPersonas.getPersonaById(id);
     }
 
-    public Persona guardarPersona(Persona persona){
-        return repositoryPersonas.savePersona(persona);
+    public void guardarPersona(Persona persona){
+        repositoryPersonas.savePersona(persona);
     }
 
     public void eliminar(Persona persona){

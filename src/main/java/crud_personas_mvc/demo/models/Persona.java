@@ -13,6 +13,7 @@ public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nombres;
     private String primerApellido;
     private String segundoApellido;
